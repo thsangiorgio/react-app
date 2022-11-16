@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import Form from './Form.js';
+import React, { Component } from "react";
+import { Form } from "./Form.js";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Leave your message here:</h1>
+        <h1>Click the button</h1>
         <Form />
       </div>
     );
